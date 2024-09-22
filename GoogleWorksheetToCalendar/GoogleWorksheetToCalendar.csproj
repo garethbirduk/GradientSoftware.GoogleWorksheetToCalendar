@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+ 
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>GradientSoftware.$(AssemblyName)</Title>
+    <Description>A cmd line utility for creating google calendars from google worksheets.</Description>
+    <Copyright>© 2024 Gareth Bird</Copyright>
+    <ErrorReport>none</ErrorReport>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryType></RepositoryType>
+    <PackageTags>utils; gradient; software; google</PackageTags>
+    <PackageId>GradientSoftware.$(AssemblyName)</PackageId>
+    <RepositoryUrl>https://github.com/garethbirduk/GradientSoftware.GoogleWorksheetToCalendar</RepositoryUrl>
+    <Title>GradientSoftware.$(AssemblyName)</Title>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.9.1" />
+    <PackageReference Include="GradientSoftware.GoogleLibrary" Version="2.0.0" />
+    <PackageReference Include="GradientSoftware.GoogleServices" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="credentials.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

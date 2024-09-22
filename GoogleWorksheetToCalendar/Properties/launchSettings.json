@@ -1,0 +1,40 @@
+{
+  "exclude": [
+    "**/bin",
+    "**/bower_components",
+    "**/jspm_packages",
+    "**/node_modules",
+    "**/obj",
+    "**/platforms"
+  ],
+  "profiles": {
+    "Arin": {
+      "commandName": "Project",
+      "commandLineArgs": "-c ArinsHoliday_c7 -i 1xXeM_uG2_z1dH9dAfSNZntxNfadmaWo6K9QrFHRURZg -w ArinsHoliday -h 2"
+    },
+    "Easter2024": {
+      "commandName": "Project",
+      "commandLineArgs": "-c \"Easter2024b\" -i 1xXeM_uG2_z1dH9dAfSNZntxNfadmaWo6K9QrFHRURZg -w \"Easter2024\""
+    },
+    "Formula 1": {
+      "commandName": "Project",
+      "commandLineArgs": "-c \"Formula 1\" -i 1xXeM_uG2_z1dH9dAfSNZntxNfadmaWo6K9QrFHRURZg -w \"Formula 1\""
+    },
+    "Florida2024": {
+      "commandName": "Project",
+      "commandLineArgs": "-c \"Florida2024\" -i 1xXeM_uG2_z1dH9dAfSNZntxNfadmaWo6K9QrFHRURZg -w \"Florida2024\" -h 2"
+    },
+    "Crewe Alex": {
+      "commandName": "Project",
+      "commandLineArgs": "-c \"Crewe Alex2\" -i 1xXeM_uG2_z1dH9dAfSNZntxNfadmaWo6K9QrFHRURZg -w \"Crewe Alex\""
+    },
+    "Euro2024b": {
+      "commandName": "Project",
+      "commandLineArgs": "-c \"Euro2024b\" -i 1xXeM_uG2_z1dH9dAfSNZntxNfadmaWo6K9QrFHRURZg -w \"Euro2024b\""
+    },
+    "Fuertoventura2023": {
+      "commandName": "Project",
+      "commandLineArgs": "-c \"Fuertoventura2023\" -i 1xXeM_uG2_z1dH9dAfSNZntxNfadmaWo6K9QrFHRURZg -w \"Fuertoventura2023\" -h 2"
+    }
+  }
+}
